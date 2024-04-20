@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./weathercomp.component.css']
 })
 export class WeathercompComponent implements OnInit {
+  props:string='';
 
   constructor() { }
 
