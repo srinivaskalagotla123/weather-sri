@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WeathercompComponent implements OnInit {
   props:string='';
-
+  srini:string='';
   constructor() { }
 
   ngOnInit(): void {
